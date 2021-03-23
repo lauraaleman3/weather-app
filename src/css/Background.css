@@ -5,17 +5,19 @@
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;;
-      padding-bottom: 20%;
+      padding-bottom: 13%;
       text-align: center;
 }
-
+/* Footing */
 .foot {
   display: flex;
-padding-top: 1%;
-  justify-content: center;
-  /* padding-top: 100px; */
+  border-top: 5px solid white;
+  justify-content:space-around ;
   position: relative;
-  bottom: 0;
   width: 100%;
- 
+  font-size: xx-large;
+}
+/* To change font color in footer */
+.foot p{
+  color: white;
 }

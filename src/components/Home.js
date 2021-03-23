@@ -8,10 +8,9 @@ function Home() {
         <h2>User Story</h2>
         <h3>Wire Frame</h3>
         <div> 
-        <br/> 
-            <div className="foot"> 
+        <br/><br/><br/><br/><br/> <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <div className="foot"> 
         <Footer />
-       
         </div>
         </div>
       </div>
