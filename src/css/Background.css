@@ -4,9 +4,10 @@
     -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
-      background-size: cover;;
+      background-size: cover;
       padding-bottom: 13%;
       text-align: center;
+      
 }
 /* Footing */
 .foot {
@@ -20,4 +21,22 @@
 /* To change font color in footer */
 .foot p{
   color: white;
+  padding-top: 50px;
+}
+
+/* For spacing between border and button */
+.btn{
+  padding-top: 30px;
+}
+
+button {
+  background: #F7EA5E;
+  border: white 3px solid;
+  color: #1f80aa;
+  padding: 10px;
+  font-size: x-large;
+}
+
+button:hover {
+  background-color: #B2B2B2;
 }

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function Footer() {
   const [textSwitch, setTextSwitch] = useState(true);
   return (
-    <div>
+    <div className="btn">
       <button onClick={() => setTextSwitch(!textSwitch)} type="button">
        Click
       </button>
