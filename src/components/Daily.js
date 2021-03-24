@@ -37,12 +37,14 @@ export default class Daily extends Component {
               <p>Precipitation: {this.state.precip[2]}</p>
               <p>Wind: {this.state.wind[2]}</p>
             </div>
-            <div>
-              <h3>{this.state.location[3]}</h3>
-              <p >Temp: {this.state.temp[3]}</p>
-              <p>Precipitation: {this.state.precip[3]}</p>
-              <p>Wind: {this.state.wind[3]}</p>
-            </div>
+
+            <div className="Cloudy">
+          <h3>{this.state.location[3]}</h3>
+          <p>Temp: {this.state.temp[3]}</p>
+          <p>Precipitation: {this.state.precip[3]}</p>
+          <p>Wind: {this.state.wind[3]}</p>
+        </div>
+
             <div className="Sunny">
               <h3>{this.state.location[4]}</h3>
               <p >Temp: {this.state.temp[4]}</p>
