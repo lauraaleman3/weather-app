@@ -15,9 +15,10 @@ class Navbar extends Component {
       <div className="nav">
         <span >
           <Link to="/">Home</Link> |
+          <Link to="Wireframe">Wireframe</Link> |
           <Link to="daily">Daily</Link> |
-          <Link to="weekly">Weekly</Link>|
-          <Link to="Wireframe">Wireframe</Link>
+          <Link to="weekly">Weekly</Link>
+         
         </span>
         
         <Time />

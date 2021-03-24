@@ -18,7 +18,6 @@ class Routes extends Component {
       <Router>
         <div>
           <Navbar />
-          {/* <hr /> */}
           <Route name="Home" exact path="/" component={Home} />
           <Route name="Daily" path="/daily" component={Daily} />
           <Route name="Weekly" path="/weekly" component={Weekly} />

@@ -3,8 +3,13 @@
     padding: 2%;
     color: white;
     font-size: xx-large;
+    border-bottom: 5px solid white;
 }
 
 a{
     color: white;
 }
+
+a:hover {
+    color: gray;
+  }

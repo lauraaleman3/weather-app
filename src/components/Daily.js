@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Day from '../css/Day.css';
+import Footer from './Footer.js';
 
 
 
@@ -50,6 +51,9 @@ export default class Daily extends Component {
             </div>
           </div>
           <div className="Day">
+          <div className="foot"> 
+    <Footer />
+    </div>
           </div>
           </div>
         )
