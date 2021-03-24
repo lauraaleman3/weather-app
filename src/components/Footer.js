@@ -21,7 +21,7 @@ function Greeting(props) {
      <img style={{float : 'left', width :'100px', height : 'auto', overflowWrap : 'break-word', wordWrap : 'break-word'}} src={'https://media1.giphy.com/media/l0jExU1nw7KvVtxudC/source.gif'} alt='sun rising from smiling cloud'/>
      {/* Added CSS in p tag */}
       <p style={{color : 'white'}}>
-        Hello from: April, Echu, Eyke Jonathan, and Laura!
+        Hello from: April, Echu, Eyke, Jonathan, and Laura!
       </p>
       </div>
     );
